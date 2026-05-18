@@ -8,7 +8,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-0078d7.svg)]()
 [![Research](https://img.shields.io/badge/Research-INET--md-blue.svg)](https://www.inetmd.pt)
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)]()
-[![DOI](https://zenodo.org/badge/1242386227.svg)](https://doi.org/10.5281/zenodo.20273631)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.20273631-blue.svg)](https://doi.org/10.5281/zenodo.20273631)
 
 ---
 
