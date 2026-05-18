@@ -205,3 +205,140 @@ A dramatic implementation of quantum-inspired probabilistic events:
 ---
 
 ## System Architecture
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ WEATHER DATA LAYER │
+│ Open-Meteo API / NOAA / Fallback │
+└─────────────────────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ UNSUPERVISED AI (Isolation Forest) │
+│ Anomaly Detection │ Self-learning │ Continuous Retraining │
+└─────────────────────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ DREAMING AI (13 Archetypes) │
+│ Generative Variations │ CC Modulation │ Sound Effects │
+└─────────────────────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ QUANTUM STATE SIMULATION │
+│ Amplitude │ Phase │ Energy │ Collapse (15%) │
+└─────────────────────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ HARMONIC FIELD │
+│ 5 Drone Voices (Bass, Mid, High, Pad, Texture) │
+└─────────────────────────────────────────────────────────────────────────────┘
+│
+┌─────────────────┼─────────────────┐
+▼ ▼ ▼
+┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+│ RHYTHM │ │ RAIN │ │ DRONES │
+│ Euclidean │ │ Granular │ │ Harmonic │
+│ Ghost Notes │ │ 4 Layers │ │ Field │
+│ Polyrhythms │ │ Pitch Drift │ │ 5 Voices │
+└──────────────┘ └──────────────┘ └──────────────┘
+│ │ │
+└─────────────────┼─────────────────┘
+▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ CC BANK (8 Controllers) │
+│ Volume │ Filter │ Reverb │ Expression │ Pan │ Resonance │ Attack │ Release
+└─────────────────────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ MIDI OUTPUT + VISUALIZER │
+│ Real-time MIDI │ Sandstorm Visualizer │ Video Output │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+---
+
+## Requirements
+
+| Component | Minimum | Recommended |
+|:----------|:--------|:------------|
+| **Operating System** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **RAM** | 4 GB | 8 GB |
+| **Processor** | Intel Core i5 | Intel Core i7 / AMD Ryzen 7 |
+| **MIDI Output** | Software synth (e.g., FluidSynth) | Hardware MIDI synthesizer |
+| **Internet** | Required for weather data | Broadband connection |
+| **Display** | 1366×768 | 1920×1080 or higher |
+
+---
+
+## Technical Specifications
+
+| Component | Specification |
+|:----------|:--------------|
+| **AI Model** | Isolation Forest (scikit-learn) |
+| **Contamination** | 10% (expected anomaly proportion) |
+| **Window Size** | 500 observations |
+| **Retraining** | Every 100 new observations |
+| **Features** | 7 dimensions (temp, wind, rain, pressure, humidity...) |
+| **Anomaly Cooldown** | 1.0 second (high sensitivity) |
+| **Anomaly Decay** | 8.0 seconds (long-lasting effects) |
+| **Drone Release** | 1.2 seconds |
+| **Watchdog Timer** | 30 seconds |
+
+---
+
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
+
+
+**For commercial licensing inquiries**, please contact: **hugopaquete@ua.pt**
+
+---
+
+## Citation
+
+If you use AEROSONIC SONIFIER in academic research, please cite:
+
+```bibtex
+@software{paquete2026aerosonic,
+  author = {Paquete, Hugo},
+  title = {AEROSONIC SONIFIER: Unsupervised AI Weather Sonification System},
+  year = {2026},
+  institution = {INET-md, University of Aveiro},
+  note = {FCT Grant 2024.09158.CEECIND},
+  url = {https://github.com/hugopaquete/AI-as-Catalyst-Aerosonic-Sonifier}
+}
+
+*"This work was supported by FCT grant 2024.09158.CEECIND (AI as Catalyst project, University of Aveiro/INET-md)."*
+
+Hugo Paquete, PhD
+Principal Investigator
+
+Email	hugopaquete@ua.pt
+Website	www.hugopaquete.com
+Institution	University of Aveiro | INET-md
+Address	Campus Universitário de Santiago, 3810-193 Aveiro, Portugal
+Phone	(+351) 234 370 389 (ext. 23700)
+
+Links
+FCT — Fundação para a Ciência e a Tecnologia
+
+University of Aveiro
+
+INET-md — Institute of Ethnomusicology
+
+Department of Communication and Art (DeCA)
+
+Acknowledgments
+Fundação para a Ciência e a Tecnologia (FCT) for funding through grant 2024.09158.CEECIND
+
+INET-md for institutional support and research infrastructure
+
+University of Aveiro for hosting the research
+
+DeepSeek AI for collaborative development
+
+<div align="center"> <sub> <strong>© 2026 Hugo Paquete</strong> | FCT Grant 2024.09158.CEECIND<br> <strong>AI as Catalyst</strong> — INET-md | University of Aveiro<br> <strong>Version 1.0.0</strong> | May 2026 </sub> </div> ```
