@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.spec
+build/
+dist/
+*.manifest
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Project specific
+*.log
+*.mid
+*.wav
+*.mp3
+config.ini
+*.db
+weather_cache.json
+*.temp
+
+# Sensitive data
+.env
+*.key
+*.pem
+*.secret
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Uploads
+uploads/
+temp/
+tmp/
