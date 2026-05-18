@@ -8,6 +8,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-0078d7.svg)]()
 [![Research](https://img.shields.io/badge/Research-INET--md-blue.svg)](https://www.inetmd.pt)
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)]()
+[![DOI](https://zenodo.org/badge/1242386227.svg)](https://doi.org/10.5281/zenodo.20273631)
 
 ---
 
@@ -303,13 +304,13 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial-
 If you use AEROSONIC SONIFIER in academic research, please cite:
 
 ```bibtex
-@software{paquete2026aerosonic,
+@software{Paquete_2026,
   author = {Paquete, Hugo},
-  title = {AEROSONIC SONIFIER: Unsupervised AI Weather Sonification System},
+  title = {AEROSONIC SONIFIER - Unsupervised AI Weather Sonification System},
   year = {2026},
-  institution = {INET-md, University of Aveiro},
-  note = {FCT Grant 2024.09158.CEECIND},
-  url = {https://github.com/hugopaquete/AI-as-Catalyst-Aerosonic-Sonifier}
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.20273631},
+  url = {https://github.com/HugoPaquete/AI-as-Catalyst-Aerosonic-Sonifier}
 }
 
 *"This work was supported by FCT grant 2024.09158.CEECIND (AI as Catalyst project, University of Aveiro/INET-md)."*
