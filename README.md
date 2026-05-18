@@ -317,7 +317,7 @@ If you use AEROSONIC SONIFIER in academic research, please cite:
 Hugo Paquete, PhD
 Principal Investigator
 
-Email	hugopaquete@ua.pt
+Email	paquetehugo@gmail.com / hugopaquete@ua.pt
 Website	www.hugopaquete.com
 Institution	University of Aveiro | INET-md
 Address	Campus Universitário de Santiago, 3810-193 Aveiro, Portugal
