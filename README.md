@@ -325,20 +325,14 @@ Phone	(+351) 234 370 389 (ext. 23700)
 
 Links
 FCT — Fundação para a Ciência e a Tecnologia
-
 University of Aveiro
-
 INET-md — Institute of Ethnomusicology
-
 Department of Communication and Art (DeCA)
 
 Acknowledgments
 Fundação para a Ciência e a Tecnologia (FCT) for funding through grant 2024.09158.CEECIND
-
 INET-md for institutional support and research infrastructure
-
 University of Aveiro for hosting the research
-
 DeepSeek AI for collaborative development
 
 <div align="center"> <sub> <strong>© 2026 Hugo Paquete</strong> | FCT Grant 2024.09158.CEECIND<br> <strong>AI as Catalyst</strong> — INET-md | University of Aveiro<br> <strong>Version 1.0.0</strong> | May 2026 </sub> </div> ```
