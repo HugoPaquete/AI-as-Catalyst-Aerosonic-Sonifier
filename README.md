@@ -1,2 +1,1 @@
-# AI-as-Catalyst-Aerosonic-Sonifier
-AEROSONIC SONIFIER - Sistema de sonificação meteorológica com IA não supervisionada (Isolation Forest) para geração de música MIDI em tempo real. Projeto FCT 2024.09158.CEECIND "AI as Catalyst" | INET-md | Universidade de Aveiro
+AEROSONIC SONIFIER - Unsupervised AI weather sonification system (Isolation Forest) for real-time MIDI music generation. FCT Grant 2024.09158.CEECIND "AI as Catalyst" project | INET-md | University of Aveiro
