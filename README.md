@@ -1,1 +1,207 @@
-AEROSONIC SONIFIER - Unsupervised AI weather sonification system (Isolation Forest) for real-time MIDI music generation. FCT Grant 2024.09158.CEECIND "AI as Catalyst" project | INET-md | University of Aveiro
+# AI as Catalyst | AEROSONIC SONIFIER
+
+## Unsupervised AI Weather Sonification System
+
+[![FCT Grant](https://img.shields.io/badge/FCT-2024.09158.CEECIND-green.svg)](https://www.fct.pt)
+[![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)]()
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-0078d7.svg)]()
+[![Research](https://img.shields.io/badge/Research-INET--md-blue.svg)](https://www.inetmd.pt)
+[![Python](https://img.shields.io/badge/Python-3.11-blue.svg)]()
+
+---
+
+> **AEROSONIC SONIFIER** transforms meteorological and atmospheric data into real-time MIDI music using unsupervised artificial intelligence (Isolation Forest) for climate anomaly detection.
+
+---
+
+## Table of Contents
+
+- [What is AEROSONIC SONIFIER?](#what-is-aerosonic-sonifier)
+- [Unsupervised AI](#unsupervised-ai-isolation-forest)
+- [Performance Controls](#performance-controls)
+- [Weather Presets](#weather-presets)
+- [Dreaming AI](#dreaming-ai---13-archetypes)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Research Context](#research-context)
+- [System Architecture](#system-architecture)
+- [Requirements](#requirements)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## What is AEROSONIC SONIFIER?
+
+A **scientific sonification system** developed as part of the **"AI as Catalyst"** project (FCT Grant 2024.09158.CEECIND) at INET-md, University of Aveiro.
+
+### Weather to Music Mapping
+
+| Weather Data | Musical Transformation |
+|:------------|:----------------------|
+| **Temperature** | Harmonic root and drone register |
+| **Wind speed** | Rhythmic density and filter cutoff |
+| **Precipitation** | Granular rain textures and reverb intensity |
+| **Atmospheric pressure** | Harmonic tension and dissonance |
+| **Relative humidity** | Release times and texture evolution |
+| **Weather conditions** | Preset selection and mood |
+
+---
+
+## Unsupervised AI (Isolation Forest)
+
+The system integrates a **climate anomaly detector** based on Isolation Forest, an unsupervised AI technique that operates entirely locally.
+
+### AI Capabilities
+
+| Feature | Description |
+|:--------|:------------|
+| **Self-learning** | No prior training data required |
+| **Pattern discovery** | Automatically identifies "normal weather" baselines |
+| **Continuous adaptation** | Auto-retrains every 100 observations |
+| **Anomaly detection** | Identifies rare and extreme weather events |
+
+### Musical Effects of Anomalies
+
+| Severity | Anomaly Score | Musical Effect |
+|:---------|:-------------|:---------------|
+| Mild | 0.3 - 0.5 | Glitches in DataMutator |
+| Moderate | 0.5 - 0.7 | Increased rhythm density + filter sweep |
+| Severe | > 0.7 | STORM modulation + Intense Glitch + Visual flash |
+
+---
+
+## Performance Controls
+
+Real-time adjustable parameters for expressive control:
+
+| Control | Range | Default | Musical Effect |
+|:--------|:-----:|:-------:|:---------------|
+| **Tick Speed** | 50-250ms | 166ms | Note velocity and energy |
+| **Rhythm Density** | 30-90% | 60% | Quantity of rhythmic notes |
+| **Rain Density** | 10-70% | 40% | Density of rain droplets |
+| **Drone Smooth** | 0.80-0.99 | 0.95 | Harmonic field smoothness |
+| **Swing** | 0-50% | 15% | Shuffle/groove feel |
+| **Humanize** | 0-100% | 20% | Microtiming variations |
+| **Vibrato** | 0-100% | 30% | Pitch modulation depth |
+| **Harmonic Drift** | 0-100% | 25% | Microtonal evolution |
+
+### Intensity Profiles
+
+| Profile | Tick Speed | Rhythm | Rain | Drone Smooth |
+|:--------|:----------:|:------:|:----:|:-------------:|
+| Ambient | 220ms | 30% | 15% | 0.98 |
+| Chillout | 180ms | 50% | 30% | 0.96 |
+| Normal | 166ms | 60% | 40% | 0.95 |
+| Electronica | 140ms | 65% | 45% | 0.94 |
+| Techno | 100ms | 75% | 50% | 0.90 |
+| Drum&Bass | 70ms | 85% | 60% | 0.85 |
+| Extreme | 50ms | 90% | 70% | 0.80 |
+
+---
+
+##  Weather Presets
+
+Temporary presets (10 seconds) that override real-time weather data:
+
+| Key | Preset | Temp | Wind | Rain | Musical Style |
+|:---:|:-------|:----:|:----:|:----:|:---------------|
+| A | Severe Storm | 10°C | 55 km/h | 120 mm | Dramatic, Intense |
+| B | Flood | 16°C | 20 km/h | 180 mm | Chaotic, Dense |
+| C | Extreme Heat | 48°C | 3 km/h | 0 mm | Intense, Dry |
+| D | Extreme Cold | -25°C | 5 km/h | 0 mm | Icy, Ethereal |
+| E | Gale | 14°C | 65 km/h | 0 mm | Rhythmic, Pulsing |
+| F | Tornado | 22°C | 80 km/h | 60 mm | Chaotic, Turbulent |
+| G | Extreme Drought | 42°C | 15 km/h | 0 mm | Arid, Static |
+| H | Ice Storm | -8°C | 30 km/h | 40 mm | Ethereal, Glassy |
+
+> **Note:** Presets are temporary. After 10 seconds, the system automatically returns to AUTO mode (live weather data from Open-Meteo).
+
+---
+
+## Dreaming AI - 13 Archetypes
+
+The Dreaming AI introduces generative variations with 8% base probability:
+
+| Dream | Temp Offset | Precip × | Wind × | Harmonic Field | Character |
+|:------|:-----------:|:--------:|:------:|:---------------|:----------|
+| Crystalline | -8°C | 0.0 | 0.2 | DREAM | Pure, Glassy |
+| Amethyst | +2°C | 1.5 | 1.3 | STORM | Intense, Purple |
+| Obsidian | -2°C | 0.2 | 0.4 | TENSE | Dark, Sharp |
+| Inferno | +12°C | 0.0 | 1.6 | CHAOS | Fiery, Wild |
+| Gravity | -4°C | 2.0 | 1.8 | STORM | Heavy, Dense |
+| Nebula | 0°C | 0.8 | 0.5 | DREAM | Spacious, Cosmic |
+| Thunderstorm | -2°C | 3.0 | 2.5 | STORM | Powerful, Electric |
+| Aurora | -15°C | 0.1 | 1.2 | DREAM | Luminous, Flowing |
+| Volcano | +18°C | 0.0 | 1.0 | CHAOS | Explosive, Erupting |
+| Mirage | +6°C | 0.0 | 0.8 | TENSE | Shimmering, Unstable |
+| Abyss | -6°C | 0.5 | 0.3 | TENSE | Deep, Dark |
+| Whirlwind | 0°C | 0.5 | 3.0 | CHAOS | Spinning, Fast |
+| Stardust | -10°C | 0.0 | 0.0 | DREAM | Sparkling, Celestial |
+
+**Dream Characteristics:**
+- Duration: 20-60 seconds
+- Cooldown: 15 seconds between dreams
+- Sound effects: Chimes (Ch.15), Pads (Ch.14), Drones (Ch.13)
+
+---
+
+## Quantum State Simulation
+
+A dramatic implementation of quantum-inspired probabilistic events:
+
+| Parameter | Description |
+|:----------|:------------|
+| **Amplitude** (0-1) | Probability of measurement/collapse |
+| **Phase** (0-2π) | Position in quantum cycle |
+| **Energy** (0-1) | Excitation level |
+| **Uncertainty** | Heisenberg principle simulation |
+| **Collapse Probability** | 15% — triggers musical events |
+| **Tunneling** | Smooth transitions between states |
+
+**Particle Types:** ELECTRON, PHOTON, NEUTRINO, HIGGS, TACHYON
+
+---
+
+## Keyboard Shortcuts
+
+| Key | Action | Description |
+|:---:|:-------|:------------|
+| `A` - `H` | Weather Presets | Load predefined weather conditions |
+| `D` | Force Dream | Manually trigger Dreaming AI |
+| `P` | MIDI Panic | Emergency all-notes-off (cutoff) |
+| `V` | Video Output | Toggle projector/second screen mode |
+| `F` | Fullscreen | Toggle fullscreen display |
+| `H` | Info Overlay | Toggle heads-up display |
+| `M` | Data Mutator | Toggle mutation effects |
+| `I` | AI Statistics | Show AI anomaly detection stats |
+| `Ctrl` + `Shift` + `R` | Reset AI | Reinitialize Isolation Forest |
+| `Ctrl` + `S` | Save Config | Save current parameters |
+| `Ctrl` + `Q` | Quit | Exit application |
+
+---
+
+## Research Context
+
+| Field | Information |
+|:------|:------------|
+| **Project** | AI as Catalyst: Transformative Impacts on Digital Performance, Computer Music, and Cultural Creativity |
+| **Funding Agency** | Fundação para a Ciência e a Tecnologia (FCT) |
+| **Grant Number** | 2024.09158.CEECIND |
+| **Period** | March 2026 — December 2029 |
+| **Host Institution** | INET-md \| University of Aveiro |
+| **Research Group** | CPIA (Creation, Performance, and Innovation in Art) |
+| **Principal Investigator** | Hugo Paquete |
+
+### Partner Institutions
+
+| Institution | Role |
+|:------------|:-----|
+| University of Aveiro | Coordinating Institution |
+| INET-md | Research Unit |
+| Absonus Lab | Research Partner |
+| Planetário do Porto – CCV | Outreach Partner |
+
+---
+
+## System Architecture
