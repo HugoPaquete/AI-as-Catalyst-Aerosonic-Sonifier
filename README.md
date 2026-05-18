@@ -294,7 +294,7 @@ A dramatic implementation of quantum-inspired probabilistic events:
 This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
 
 
-**For commercial licensing inquiries**, please contact: **hugopaquete@ua.pt**
+**For commercial licensing inquiries**, please contact: **paquetehugo@gmail.com**
 
 ---
 
